@@ -13,18 +13,19 @@ namespace Ex2
             
 
 
-            Quadrado quadradao = new Quadrado();
+            Quadrado quadradinho = new Quadrado();
 
             Console.WriteLine("Digite o valor da aresta do quadrado:");
 
-            quadradao.setLado(int.Parse(Console.ReadLine()));
+            quadradinho.setLado(int.Parse(Console.ReadLine()));
 
-            quadradao.calcularArea();
+            quadradinho.calcularArea();
 
-            Console.WriteLine(quadradao.getArea());
+            Console.WriteLine(quadradinho.getArea());
 
             
             
         }
     }
 }
+
